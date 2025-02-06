@@ -1,0 +1,40 @@
+project:
+  type: website
+
+website:
+  title: "My Website"
+  navbar:
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Curatorship"
+        menu:
+          - text: "Videos"
+            href: curatorship/curatorship-videos.qmd
+          - text: "Books"
+            href: curatorship/curatorship-books.qmd
+          - text: "Papers"
+            href: curatorship/curatorship-papers.qmd
+          - text: "Podcasts"
+            href: curatorship/curatorship-podcasts.qmd
+      - text: "About"
+        menu:
+          - text: "Biography"
+            href: biography.qmd
+          - text: "CV"
+            href: cv.qmd
+          - text: "Awards"
+            href: awards.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Contact"
+        href: contact.qmd
+  draft-mode: gone
+format:
+  html:
+    theme:
+      dark: darkly
+      light: flatly
+      
+metadata-files:
+  - drafts.yml
