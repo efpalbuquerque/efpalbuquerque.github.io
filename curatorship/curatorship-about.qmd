@@ -1,5 +1,5 @@
 ---
-title: "curatorship-podcasts"
+title: "curatorship-about"
 format: html
 ---
 

@@ -1,0 +1,8 @@
+
+title: "Latex"
+author: "john the toucanite"
+format: pdf
+header-includes:
+
+\usepackage{lipsum}
+\usepackage{tcolorbox}

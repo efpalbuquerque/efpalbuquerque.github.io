@@ -3,3 +3,25 @@ title: "about"
 format: html
 ---
 
+
+:::: {layout="[ 30, 70 ]"}
+
+::: {#first-column}
+
+![A Good Hair Day](pictures/personal/24-11-20.jpeg){width=100%, fig-align="right"}
+
+![My Worst Enemy](pictures/personal/24-12-26.jpeg){width=100%, fig-align="right"}
+
+:::
+
+:::{#second-column}
+I am an economist, trained by the Universidade Federal de Pernambuco (BSc, MSc, and unfinished PhD) and University College Dublin (unfinished PhD), interested in human capital and personal development, especially through the lens of decision theory, game theory and cognitive science.
+
+I am also interested in meditation and Aikido, a japanese martial art focused on the harmonious resolution of conflicts.
+
+It is a guiding principle in my life that the ways in which we *choose* to see the world and educate ourselves have a profound impact on our decisions and their consequences, and that true education, in whichever guise, is the surest way towards a better life, better relationships and, ultimately, a better world.
+
+After long bouts with burnout, this website was envisioned as an outlet for my adventures as both a consumer and a producer of content. I hope you like it. I hope I like it.
+
+:::
+::::

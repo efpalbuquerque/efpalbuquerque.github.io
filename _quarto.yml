@@ -2,12 +2,12 @@ project:
   type: website
 
 website:
-  title: "My Website"
+  title: "Emmanuel Felipe Patriota de Albuquerque"
   navbar:
     right:
       - text: "Home"
         href: index.qmd
-      - text: "Curatorship"
+      - text: "Consumption"
         menu:
           - text: "Videos"
             href: curatorship/curatorship-videos.qmd
@@ -17,21 +17,26 @@ website:
             href: curatorship/curatorship-papers.qmd
           - text: "Podcasts"
             href: curatorship/curatorship-podcasts.qmd
+      - text: "Production"
+        menu:
+          - text: "Research"
+            href: research.qmd
+          - text: "Misc. Writings"
       - text: "About"
+        href: about.qmd
         menu:
           - text: "Biography"
             href: biography.qmd
           - text: "CV"
             href: cv.qmd
           - text: "Awards"
-            href: awards.qmd
-      - text: "Research"
-        href: research.qmd
+            href: awards.qmd        
       - text: "Contact"
         href: contact.qmd
   draft-mode: gone
 format:
   html:
+    css: styles.css
     theme:
       dark: darkly
       light: flatly
