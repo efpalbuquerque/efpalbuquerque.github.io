@@ -17,4 +17,12 @@ Responding to a criticism of utilitarianism that persists to this day, Mill rema
 
 
 
-## 
+# Rants
+
+## It's like I've learned economics with an Abacus
+
+New software allows the student to focus on the economic insights. 
+
+Because it was the only way to get to the insights of an economic model, the student had to manually state and derive its solution. 
+
+And while it is true, in my opinion, that the attention built while solving mathematical equations is a transferrable skill, the time and attention spent on it - diverting it from the main task of the economics student, which is to think about the interacting decision making of economic agents - probably lies well above the optimal level.

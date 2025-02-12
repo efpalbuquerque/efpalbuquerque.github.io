@@ -1,14 +1,5 @@
----
-title: "tutoring"
-format: html
----
 
-asdfsad 
-# Economics with Mathematica 
-
-## Labor Market Dynamics
-
-```{python}
+# %%
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import solve_ivp
@@ -141,4 +132,3 @@ def interactive_wage_dynamics(W0_factor=0.5, k_value=0.1):
 
 interact(interactive_wage_dynamics, W0_factor=widgets.FloatSlider(min=0.1, max=1.5, step=0.1, value=0.5),
          k_value=widgets.FloatSlider(min=0.01, max=0.5, step=0.01, value=0.1))
-```

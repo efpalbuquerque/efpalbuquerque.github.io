@@ -1,0 +1,10 @@
+name = "Lean 4 - Attempt 01"
+version = "0.1.0"
+defaultTargets = ["lean 4 - attempt 01"]
+
+[[lean_lib]]
+name = "«Lean 4  Attempt 01»"
+
+[[lean_exe]]
+name = "lean 4 - attempt 01"
+root = "Main"
