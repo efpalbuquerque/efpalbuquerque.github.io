@@ -1,0 +1,41 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"tutoring\"\n",
+        "format: html\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "asdfsad \n",
+        "# Economics with Mathematica \n",
+        "\n",
+        "## Labor Market Dynamics\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "```{wolfram}\n",
+        "(* Compute the indefinite integral of sin(x) *)\n",
+        "Integrate[Sin[x], x]\n",
+        "```"
+      ],
+      "id": "be513f05"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3",
+      "path": "C:\\Users\\efpal\\Anaconda3\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

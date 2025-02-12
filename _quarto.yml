@@ -9,19 +9,28 @@ website:
         href: index.qmd
       - text: "Consumption"
         menu:
+          - text: "Influences"
+            href: consumption/consumption-influences.qmd
+          - text: "Practices"
+            href: consumption/consumption-practices.qmd
           - text: "Videos"
-            href: curatorship/curatorship-videos.qmd
+            href: consumption/consumption-videos.qmd
           - text: "Books"
-            href: curatorship/curatorship-books.qmd
+            href: consumption/consumption-books.qmd
           - text: "Papers"
-            href: curatorship/curatorship-papers.qmd
+            href: consumption/consumption-papers.qmd
           - text: "Podcasts"
-            href: curatorship/curatorship-podcasts.qmd
+            href: consumption/consumption-podcasts.qmd
       - text: "Production"
         menu:
           - text: "Research"
-            href: research.qmd
+            href: production/production-research.qmd
+          - text: "Tutoring"
+            href: production/production-tutoring.qmd
           - text: "Misc. Writings"
+            href: production/production-m-writings.qmd
+          - text: "Entrepreneurship"
+            href: production/production-entrepreneurship.qmd            
       - text: "About"
         href: about.qmd
         menu:

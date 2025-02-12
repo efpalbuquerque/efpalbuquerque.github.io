@@ -1,0 +1,14 @@
+---
+title: "tutoring"
+format: html
+---
+
+asdfsad 
+# Economics with Mathematica 
+
+## Labor Market Dynamics
+
+```{wolfram}
+(* Compute the indefinite integral of sin(x) *)
+Integrate[Sin[x], x]
+```

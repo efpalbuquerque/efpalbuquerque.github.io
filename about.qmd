@@ -8,9 +8,9 @@ format: html
 
 ::: {#first-column}
 
-![A Good Hair Day](pictures/personal/24-11-20.jpeg){width=100%, fig-align="right"}
+![A "Good" "Hair" Day](pictures/personal/24-11-20.jpeg){width=100%, fig-align="right"}
 
-![My Worst Enemy](pictures/personal/24-12-26.jpeg){width=100%, fig-align="right"}
+![My Stalker](pictures/personal/24-12-26.jpeg){width=100%, fig-align="right"}
 
 :::
 
