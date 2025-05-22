@@ -1,0 +1,18 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    text-align: left;
+}
+
+main p {
+  margin: 1rem;
+  padding: .35em;
+  line-height: 1.5;
+}
+
+section {
+    margin-bottom: 2rem;
+}
