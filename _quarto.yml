@@ -1,6 +1,8 @@
 project:
   type: website
+  output-dir: docs
    
+
 website:
   title: "Emmanuel Felipe Patriota de Albuquerque"
   navbar:
