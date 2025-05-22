@@ -3,3 +3,61 @@ title: "research"
 format: html
 ---
 
+My research interests lie on decision theory, game theory, information economics, knowledge production and causal inference.
+
+# Knowledge Production
+
+This is a very elusive subject, about which have little expertise. This is a toy model, created to experiment with my mathematical modeling skills. 
+
+Still, there is insight in it.
+
+The knowledge that is available depends on the phenomena that were faced in the past, the loci where attention was placed.
+
+For instance, a male dominated society, where women were confined to mind numbing tasks will, most likely, not have the greatest insight into the nuances of the feminine mind.
+
+However, what is a phenomenon? How does knowledge relate to it? 
+
+## The model of Knowledge
+
+My model of knowledge production relates the ability of an agent to talk about a particular phenomenon, his ability to learn about it and his ability to create something new. 
+
+
+Agent *i*'s expectation, under his own subjective probability distribution, of the accuracy that agent *j* will ascribe to the knowledge he (*i*) produced.
+
+$$
+E_{i}[accuracy_j(k_i)]
+$$
+
+## How AI changes things (application)
+
+the access to other knowledge
+
+ability to access multiple languages
+
+the incentives to produce?
+
+## Interpersonal relations (application)
+
+Why are you not listening to what I am saying? Do you believe that what I am saying is inaccurate, that my incentives for saying what I am saying are not aligned with yours (as in Gentzkow and Kamenica's Bayesian Persuasion), do you fear that listening will have an effect on your ability to produce your own thoughts? Either by disrupting edges or nodes in your knowledge network or by increasing your reliance on outside sources of insight?
+
+### Independence of thought
+
+Relying on another to supply answers can have a Dutch Disease (?) effect on the self production of knowledge/insight.
+
+#### Strategic self-reliance
+
+Much like nations who refrain from from letting go of the productive capabilities of strategic goods, so as not to rely on foreign supply, even if much cheaper, when do and should individuals refrain from outsourcing thinking capacity?
+
+Cases:
+
+- others are coming up with insights that you could not come up with yourself
+-- how does this affect the development of the ability to produce such insights?
+- others are coming up with insights that you could come up with, but that you'd like to refrain from expending the resources to do it
+
+## How does 
+
+
+
+## What would be a good causal experiment?
+
+For what? 

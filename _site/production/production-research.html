@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -191,8 +220,55 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>My research interests lie on decision theory, game theory, information economics, knowledge production and causal inference.</p>
+<section id="knowledge-production" class="level1">
+<h1>Knowledge Production</h1>
+<p>This is a very elusive subject, about which have little expertise. This is a toy model, created to experiment with my mathematical modeling skills.</p>
+<p>Still, there is insight in it.</p>
+<p>The knowledge that is available depends on the phenomena that were faced in the past, the loci where attention was placed.</p>
+<p>For instance, a male dominated society, where women were confined to mind numbing tasks will, most likely, not have the greatest insight into the nuances of the feminine mind.</p>
+<p>However, what is a phenomenon? How does knowledge relate to it?</p>
+<section id="the-model-of-knowledge" class="level2">
+<h2 class="anchored" data-anchor-id="the-model-of-knowledge">The model of Knowledge</h2>
+<p>My model of knowledge production relates the ability of an agent to talk about a particular phenomenon, his ability to learn about it and his ability to create something new.</p>
+<p>Agent <em>i</em>’s expectation, under his own subjective probability distribution, of the accuracy that agent <em>j</em> will ascribe to the knowledge he (<em>i</em>) produced.</p>
+<p><span class="math display">\[
+E_{i}[accuracy_j(k_i)]
+\]</span></p>
+</section>
+<section id="how-ai-changes-things-application" class="level2">
+<h2 class="anchored" data-anchor-id="how-ai-changes-things-application">How AI changes things (application)</h2>
+<p>the access to other knowledge</p>
+<p>ability to access multiple languages</p>
+<p>the incentives to produce?</p>
+</section>
+<section id="interpersonal-relations-application" class="level2">
+<h2 class="anchored" data-anchor-id="interpersonal-relations-application">Interpersonal relations (application)</h2>
+<p>Why are you not listening to what I am saying? Do you believe that what I am saying is inaccurate, that my incentives for saying what I am saying are not aligned with yours (as in Gentzkow and Kamenica’s Bayesian Persuasion), do you fear that listening will have an effect on your ability to produce your own thoughts? Either by disrupting edges or nodes in your knowledge network or by increasing your reliance on outside sources of insight?</p>
+<section id="independence-of-thought" class="level3">
+<h3 class="anchored" data-anchor-id="independence-of-thought">Independence of thought</h3>
+<p>Relying on another to supply answers can have a Dutch Disease (?) effect on the self production of knowledge/insight.</p>
+<section id="strategic-self-reliance" class="level4">
+<h4 class="anchored" data-anchor-id="strategic-self-reliance">Strategic self-reliance</h4>
+<p>Much like nations who refrain from from letting go of the productive capabilities of strategic goods, so as not to rely on foreign supply, even if much cheaper, when do and should individuals refrain from outsourcing thinking capacity?</p>
+<p>Cases:</p>
+<ul>
+<li>others are coming up with insights that you could not come up with yourself – how does this affect the development of the ability to produce such insights?</li>
+<li>others are coming up with insights that you could come up with, but that you’d like to refrain from expending the resources to do it</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="how-does" class="level2">
+<h2 class="anchored" data-anchor-id="how-does">How does</h2>
+</section>
+<section id="what-would-be-a-good-causal-experiment" class="level2">
+<h2 class="anchored" data-anchor-id="what-would-be-a-good-causal-experiment">What would be a good causal experiment?</h2>
+<p>For what?</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
